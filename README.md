@@ -10,8 +10,8 @@ facing interface, it is necessary to iterate through tables and cells
 without DOM IDs or useful classes and selectors by brute force.
 
 Thankfully, Arris has graciously provided us huge <th> tags for the tables
-we want, so we can use XPath to find those, and iterate through child <tr>  
-and <td> of those tables.
+we want, so we can use XPath to find those, and iterate through child \<tr\>  
+and \<td\> of those tables.
 
 Note that while this is written with OOP, it is largely classless. Take that
 how you will. Nested foreach statements are the devil, but DOMDocument 
