@@ -9,7 +9,7 @@ operators have deemed it necessary to disable read-only SNMP on the customer
 facing interface, it is necessary to iterate through tables and cells 
 without DOM IDs or useful classes and selectors by brute force.
 
-Thankfully, Arris has graciously provided us huge <th> tags for the tables
+Thankfully, Arris has graciously provided us huge \<th\> tags for the tables
 we want, so we can use XPath to find those, and iterate through child \<tr\>  
 and \<td\> of those tables.
 
